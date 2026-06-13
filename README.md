@@ -12,7 +12,7 @@ An open-source, production-ready NPM package that provides a unified, elegant so
 ## Installation
 
 ```bash
-npm install universal-exporter
+npm install @waqassiwag/universal-exporter
 ```
 
 ## Usage
