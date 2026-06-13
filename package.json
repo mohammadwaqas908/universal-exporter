@@ -1,0 +1,42 @@
+{
+  "name": "universal-exporter",
+  "version": "1.0.0",
+  "description": "An open-source, production-ready NPM package that provides a unified, elegant solution for exporting data to PDF, Excel, CSV, and Print.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammadwaqas908/universal-exporter.git"
+  },
+  "keywords": [
+    "export",
+    "pdf",
+    "excel",
+    "csv",
+    "print",
+    "data-export"
+  ],
+  "author": "Muhammad Waqas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohammadwaqas908/universal-exporter/issues"
+  },
+  "homepage": "https://github.com/mohammadwaqas908/universal-exporter#readme",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/json2csv": "^5.0.7",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
