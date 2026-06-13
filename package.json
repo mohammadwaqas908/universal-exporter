@@ -1,6 +1,6 @@
 {
-  "name": "@waqassiwag/universal-exporter",
-  "version": "1.0.1",
+  "name": "universal-exporter",
+  "version": "1.0.0",
   "description": "An open-source, production-ready NPM package that provides a unified, elegant solution for exporting data to PDF, Excel, CSV, and Print.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
